@@ -1,0 +1,151 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --light-blue: #c6ecff;
+    --bg-color: #83acc1;
+    --surah-div-bg: #fdfeff;
+    --surah-div-border: #ffba4e;
+    --placeholder-color: white;
+    --bluetooth-color: #00457b;
+    --surah-div-hover: #d3f3ff;
+}
+
+#main-div {
+    width: 470px;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+    padding-bottom: 10px;
+}
+
+#header-div {
+    background-color: var(--light-blue);
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-div div {
+    margin-left: 25px;
+}
+
+#header-div h1 {
+    text-align: center;
+}
+
+#header-div i {
+    margin-right: 25px;
+    font-size: 1.6rem;
+    color: var(--bluetooth-color);
+}
+
+#search-div {
+    margin: 20px auto 0;
+    text-align: center;
+    color: var(--placeholder-color);
+}
+
+#search-div i {
+    font-size: 1.2rem;
+}
+
+/*
+#search-div > label {
+    font-size: 1.1rem;
+    font-weight: bold;
+}*/
+
+#input-surah-name {
+    padding: 9px 4px;
+    margin-right: 6px;
+    border: none;
+    border-bottom: 1px solid var(--placeholder-color);
+    font-size: 0.9rem;
+    width: 250px;
+    background-color: var(--bg-color);
+    color: var(--placeholder-color);
+}
+
+#input-surah-name::placeholder {
+    color: var(--placeholder-color);
+}
+
+/*
+#search-btn {
+    width: 80px;
+    padding: 9px 0;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: lightblue;
+}*/
+
+#output {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#surah-list, #output {
+    width: 450px;
+}
+
+#surah-list {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.surah-div {
+    width: 430px;
+    border-radius: 25px;
+    border: 2px solid var(--surah-div-border);
+    background-color: var(--surah-div-bg);
+    margin: 5px 0;
+    padding: 20px 16px 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.surah-div:hover {
+    cursor: pointer;
+    background-color: var(--surah-div-hover);
+}
+
+.surah-div:active {
+    opacity: 60%;
+}
+
+/*
+.surah-details {
+    padding: 10px 10px 0 10px;
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.button i {
+    color: lightblue;
+    font-size: 1.4rem;
+}
+*/
+
+.english-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.arabic-name {
+    font-size: 1.25rem;
+}
