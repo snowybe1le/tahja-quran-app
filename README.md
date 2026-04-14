@@ -23,7 +23,7 @@ This is a web-based prototype of a Quran learning application. It allows users t
 
 This is a prototype project. No real hardware or gesture input is implemented.
 
-## 👤 Author 
+## Authors 
 
 Mariam, Aisyah, Auni, Deena, Dania, Anes
 
