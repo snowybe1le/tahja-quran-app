@@ -7,7 +7,7 @@ const displayAyahDiv = document.getElementById("display-ayah-div");
 const signDiv = document.getElementById("sign-div");
 const ayahsListDiv = document.getElementById("ayahs-list-div");
 
-const surahAPI = "https://api.alquran.cloud/v1/surah/" + surahNumber;
+const surahAPI = "http://api.alquran.cloud/v1/surah/" + surahNumber;
 let surahData = {};
 let ayahsArray = [];
 let ayahSelectedArray = [];
