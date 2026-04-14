@@ -3,7 +3,7 @@ const output = document.getElementById("output");
 const inputSurahName = document.getElementById("input-surah-name");
 const searchBtn = document.getElementById("search-btn");
 
-const surahAPI = "http://api.alquran.cloud/v1/surah";
+const surahAPI = "https://api.alquran.cloud/v1/surah";
 let surahArray = [];
 let selectedSurah = {};
 
